@@ -8,8 +8,14 @@ The following example specifies English as the language:
 <body>
 <body style="background-color:powderblue;">
 The CSS background-color property defines the background color for an HTML element.
-<h1 style="background-color:powderblue;">This is a heading</h1>
-<p style="background-color:tomato;">This is a paragraph.</p>
+<h1 style="background-color:Tomato;">Tomato</h1>
+<h1 style="background-color:Orange;">Orange</h1>
+<h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
+<h1 style="background-color:MediumSeaGreen;">MediumSeaGreen</h1>
+<h1 style="background-color:Gray;">Gray</h1>
+<h1 style="background-color:SlateBlue;">SlateBlue</h1>
+<h1 style="background-color:Violet;">Violet</h1>
+<h1 style="background-color:LightGray;">LightGray</h1>
 <h1 style="text-align:center;">Centered Heading</h1>
 <p style="text-align:center;">Centered paragraph.</p>
 
@@ -180,4 +186,23 @@ Best Practice
 It is best practice to use relative file paths (if possible).
 When using relative file paths, your web pages will not be bound to your current base URL. All links will work on your own computer (localhost) as well as on your current public domain and your future public domains.
 
+HTML Images
+<img src="pic_trulli.jpg" alt="Italian Trulli">
+<img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">
+<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+<img src="/images/html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+<img src="programming.gif" alt="Computer Man" style="width:48px;height:48px;">
+<a href="default.asp">
+  <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+</a>
+<p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+The image will float to the right of the text.</p>
+
+<p><img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
+The image will float to the left of the text.</p>
+<figure>
+  <img src="../src/image/图1.jpg" alt="图1" style="width:400px;height:600px;">
+  <figcaption>图1</figcaption>
+</figure>
 
