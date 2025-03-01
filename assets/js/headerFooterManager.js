@@ -2,7 +2,7 @@ class CommonHeader extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <div class="topnav">
-        <a class="active" href="#home">首页</a>
+        <a class="active" href="https://xiangqi.xyz">首页</a>
         <div class="dropdown">
           <button class="dropbtn" onclick="myFunction()">赛事报道
             <i class="fa fa-caret-down"></i>
