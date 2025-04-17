@@ -22,18 +22,7 @@ class CommonHeader extends HTMLElement {
   }
 }
 
-class CommonFooter extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
-      <div class="footer">
-        <p>麒麟象棋</p>
-      </div>
-    `
-  }
-}
-
 customElements.define('common-header', CommonHeader)
-customElements.define('common-footer', CommonFooter)
 
 // dynamically highlight the active page (change the style of the nav link for the current page)
 function setActivePage() {
